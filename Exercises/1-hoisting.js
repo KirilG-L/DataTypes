@@ -1,8 +1,8 @@
 'use strict';
 
 const fn = () => {
+  const A = 100; //hoisting
   console.log(A);
-  var A = 100; //hoisting
 };
 
 module.exports = { fn };
